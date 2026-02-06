@@ -1,0 +1,57 @@
+{
+  "team": "game-dev",
+  "version": "1.0.0",
+  "description": "Multi-engine game development team covering Unity, Unreal, Godot, Three.js/R3F, and Orleans distributed servers",
+  "members": [
+    {
+      "agent": "code-explorer",
+      "role": "Codebase Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "engine-dev",
+      "role": "Engine & Systems Programmer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "gameplay-dev",
+      "role": "Gameplay & Mechanics Programmer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "level-designer",
+      "role": "Level/Scene/World Designer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "asset-pipeline",
+      "role": "Asset Pipeline & Build Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "qa-tester",
+      "role": "QA & Playtesting Engineer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "feature": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "mechanic": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "bugfix": {
+      "phases": ["discovery", "execution", "review"]
+    },
+    "optimization": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}

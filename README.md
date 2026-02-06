@@ -7,6 +7,7 @@ Agent team plugins for Claude Code. Each team is a pre-configured group of speci
 | Team | Description | Agents |
 |------|-------------|--------|
 | [fullstack-dev](./teams/fullstack-dev/) | Full-stack development | Frontend, Backend, QA, DevOps, Code Explorer |
+| [game-dev](./teams/game-dev/) | Multi-engine game development | Engine Dev, Gameplay Dev, Level Designer, Asset Pipeline, QA, Code Explorer |
 
 ## Installation
 

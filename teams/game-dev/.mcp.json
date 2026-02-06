@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "unity": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-unity"],
+      "disabled": true
+    },
+    "godot": {
+      "command": "npx",
+      "args": ["-y", "gdai-mcp-server"],
+      "disabled": true
+    }
+  }
+}

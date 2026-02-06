@@ -14,6 +14,15 @@
       },
       "source": "./teams/fullstack-dev",
       "category": "development"
+    },
+    {
+      "name": "game-dev",
+      "description": "Multi-engine game development team with Unity, Unreal, Godot, Three.js/R3F, and Orleans agents that collaborate through phased workflows",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/game-dev",
+      "category": "development"
     }
   ]
 }
