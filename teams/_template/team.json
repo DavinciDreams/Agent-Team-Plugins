@@ -1,0 +1,27 @@
+{
+  "team": "__TEAM__",
+  "version": "1.0.0",
+  "description": "__DESCRIPTION__",
+  "members": [
+    {
+      "agent": "code-explorer",
+      "role": "Codebase Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "__AGENT_1__",
+      "role": "__ROLE_1__",
+      "model": "sonnet",
+      "phase": "execution"
+    }
+  ],
+  "workflows": {
+    "feature": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "bugfix": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}

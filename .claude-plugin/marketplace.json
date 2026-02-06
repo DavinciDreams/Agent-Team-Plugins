@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "atlas-agents",
+  "description": "Agent team plugins for Claude Code - pre-configured teams of specialized agents that collaborate on complex tasks",
+  "owner": {
+    "name": "atlas-agents"
+  },
+  "plugins": [
+    {
+      "name": "fullstack-dev",
+      "description": "Full-stack development team with frontend, backend, QA, and DevOps agents that collaborate through phased workflows",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/fullstack-dev",
+      "category": "development"
+    }
+  ]
+}

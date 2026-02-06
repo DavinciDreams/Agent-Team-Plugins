@@ -1,0 +1,45 @@
+{
+  "team": "fullstack-dev",
+  "version": "1.0.0",
+  "description": "Full-stack development team with frontend, backend, QA, and DevOps agents",
+  "members": [
+    {
+      "agent": "code-explorer",
+      "role": "Codebase Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "frontend-dev",
+      "role": "Frontend Developer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "backend-dev",
+      "role": "Backend Developer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "qa-engineer",
+      "role": "QA Engineer",
+      "model": "sonnet",
+      "phase": "review"
+    },
+    {
+      "agent": "devops-engineer",
+      "role": "DevOps Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    }
+  ],
+  "workflows": {
+    "feature": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "bugfix": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}
