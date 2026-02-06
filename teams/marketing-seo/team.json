@@ -1,0 +1,48 @@
+{
+  "team": "marketing-seo",
+  "version": "1.0.0",
+  "description": "Marketing, SEO, and social media team for content creation, optimization, and engagement",
+  "members": [
+    {
+      "agent": "content-analyzer",
+      "role": "Content Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "content-writer",
+      "role": "Content Writer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "seo-specialist",
+      "role": "SEO Specialist",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "social-manager",
+      "role": "Social Media Manager",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "content-reviewer",
+      "role": "Content Reviewer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "campaign": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "content": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "optimization": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}
