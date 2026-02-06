@@ -1,0 +1,51 @@
+{
+  "team": "design-ux",
+  "version": "1.0.0",
+  "description": "Design and UX team for user research, UI/UX design, wireframing, and accessibility",
+  "members": [
+    {
+      "agent": "user-researcher",
+      "role": "User Researcher",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "ux-designer",
+      "role": "UX Designer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "ui-designer",
+      "role": "UI Designer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "interaction-designer",
+      "role": "Interaction Designer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "design-reviewer",
+      "role": "Design Reviewer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "research": {
+      "phases": ["discovery", "execution", "review"]
+    },
+    "design": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "prototype": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "iteration": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}
