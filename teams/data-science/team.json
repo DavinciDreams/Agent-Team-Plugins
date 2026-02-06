@@ -1,0 +1,51 @@
+{
+  "team": "data-science",
+  "version": "1.0.0",
+  "description": "Data science and machine learning team for data analysis, ML model development, and MLOps",
+  "members": [
+    {
+      "agent": "data-explorer",
+      "role": "Data Explorer",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "data-engineer",
+      "role": "Data Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "ml-engineer",
+      "role": "ML Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "mlops-engineer",
+      "role": "MLOps Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "data-analyst",
+      "role": "Data Analyst",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "analysis": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "model": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "pipeline": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "optimization": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}
