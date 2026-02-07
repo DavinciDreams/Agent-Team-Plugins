@@ -1,0 +1,51 @@
+{
+  "team": "documentation",
+  "version": "1.0.0",
+  "description": "Documentation team for technical writing, API documentation, tutorials, and guides",
+  "members": [
+    {
+      "agent": "doc-analyst",
+      "role": "Documentation Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "technical-writer",
+      "role": "Technical Writer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "api-docs-specialist",
+      "role": "API Documentation Specialist",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "tutorial-author",
+      "role": "Tutorial Author",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "doc-reviewer",
+      "role": "Documentation Reviewer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "documentation": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "api-docs": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "tutorial": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "update": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}
