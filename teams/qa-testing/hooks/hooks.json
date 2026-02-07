@@ -1,0 +1,16 @@
+{
+  "description": "qa-testing team telemetry - logs tool usage to JSONL",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/team-logger.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

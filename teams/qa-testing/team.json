@@ -1,0 +1,51 @@
+{
+  "team": "qa-testing",
+  "version": "1.0.0",
+  "description": "QA and testing team for automated testing, test coverage, performance testing, and quality assurance",
+  "members": [
+    {
+      "agent": "test-analyst",
+      "role": "Test Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "automation-engineer",
+      "role": "Automation Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "manual-tester",
+      "role": "Manual Tester",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "performance-tester",
+      "role": "Performance Tester",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "qa-reviewer",
+      "role": "QA Reviewer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "testing": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "automation": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "performance": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "regression": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}

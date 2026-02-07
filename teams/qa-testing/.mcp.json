@@ -1,0 +1,38 @@
+{
+  "mcpServers": {},
+  "_comment": "Potential MCP servers for QA/testing tools:",
+  "_potentialServers": {
+    "selenium": {
+      "description": "Selenium WebDriver integration for browser automation testing",
+      "config": {}
+    },
+    "cypress": {
+      "description": "Cypress test runner integration for end-to-end testing",
+      "config": {}
+    },
+    "playwright": {
+      "description": "Playwright integration for cross-browser testing",
+      "config": {}
+    },
+    "jest": {
+      "description": "Jest test framework integration for JavaScript testing",
+      "config": {}
+    },
+    "pytest": {
+      "description": "Pytest integration for Python testing",
+      "config": {}
+    },
+    "junit": {
+      "description": "JUnit integration for Java testing",
+      "config": {}
+    },
+    "testrail": {
+      "description": "TestRail API integration for test case management",
+      "config": {}
+    },
+    "browserstack": {
+      "description": "BrowserStack integration for cloud testing",
+      "config": {}
+    }
+  }
+}
