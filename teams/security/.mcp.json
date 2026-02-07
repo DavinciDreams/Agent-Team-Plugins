@@ -1,0 +1,31 @@
+{
+  "mcpServers": {},
+  "_comment": "Potential MCP server integrations for security tools:",
+  "_potential_servers": {
+    "snyk": {
+      "description": "Snyk vulnerability scanner for dependencies and code",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-snyk"]
+    },
+    "trivy": {
+      "description": "Trivy vulnerability scanner for containers and filesystems",
+      "command": "trivy",
+      "args": ["mcp"]
+    },
+    "sonarqube": {
+      "description": "SonarQube/SonarCloud for code quality and security analysis",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sonarqube"]
+    },
+    "owasp-zap": {
+      "description": "OWASP ZAP for dynamic application security testing",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-owasp-zap"]
+    },
+    "grype": {
+      "description": "Grype vulnerability scanner for container images and filesystems",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-grype"]
+    }
+  }
+}

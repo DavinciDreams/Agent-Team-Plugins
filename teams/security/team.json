@@ -1,0 +1,51 @@
+{
+  "team": "security",
+  "version": "1.0.0",
+  "description": "Security team for code security, vulnerability scanning, threat analysis, and compliance",
+  "members": [
+    {
+      "agent": "threat-analyst",
+      "role": "Threat Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "security-auditor",
+      "role": "Security Auditor",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "pen-tester",
+      "role": "Penetration Tester",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "compliance-officer",
+      "role": "Compliance Officer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "incident-responder",
+      "role": "Incident Responder",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "audit": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "assessment": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "remediation": {
+      "phases": ["discovery", "execution", "review"]
+    },
+    "incident": {
+      "phases": ["discovery", "execution", "review", "summary"]
+    }
+  }
+}
